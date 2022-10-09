@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/X4V0S/Crypto-Sys-Group_02#readme",
   "dependencies": {
-    "tweetnacl": "^1.0.3"
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
   }
 }
