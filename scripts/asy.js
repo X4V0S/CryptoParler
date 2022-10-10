@@ -19,7 +19,7 @@ const encrypt = (
     fullMessage.set(nonce) // Agregar el array nonce al array fullMessage desde el index 0
     fullMessage.set(encrypted, nonce.length) // Agregar el array "encrypted" a partir del index 24
 
-    const base64FullMessage = encodeBase64(fullMessage) // Convertir el Uint8A a un string de base 64
+    const base64FullMessage = util.encodeBase64(fullMessage) // Convertir el Uint8A a un string de base 64
     return base64FullMessage
 };
 

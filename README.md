@@ -7,8 +7,7 @@ En este encriptado se usan un dos pares, el ParA y el ParB, ambos pares tienen u
 ## Diffie-Hellman, Curvas elípticas y Precomputed Shared Key (PSK):
 
 También hay que tener en cuenta que este encriptado también puede funcionar gracias al intercambio de llaves de Diffie-Hellman y al intercambio de llaves con curvas elípticas. Existe este término llamado *Precomputed Shared Key*, una *PKS* es la llave que si se desea se puede crear al momento de combinar tu llave privada con la llave pública de la persona con la que te deseas comunicar, tal como se muestra en la siguiente imagen:
-<img src="img/diffie-hellman.png" title="" alt="" width="376">
-
+<img title="" src="img/diffie-hellman.png" alt="" width="449" data-align="inline">
 Esta llave se puede crear y usar con la librería que estamos utilizando en este proyecto.
 
 Si es que se desea se puede encriptar con la *PSK* en lugar de la llave pública del destinatario. En la documentación de la librería se usa esta función para realizar lo que se mencionó anteriormente:
@@ -37,4 +36,4 @@ En criptografía, un nonce es un número arbitrario que se puede
 usar una única vez en una comunicación criptográfica. A menudo es un 
 número aleatorio o pseudoaleatorio emitido en un protocolo de 
 autenticación para garantizar que las comunicaciones antiguas no se 
-puedan reutilizar en ataques de playback
+puedan reutilizar en ataques de playback.
