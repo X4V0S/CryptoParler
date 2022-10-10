@@ -1,0 +1,54 @@
+$background: #eee;
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: $background;
+}
+
+h1, p {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.message,
+.box {
+  width: 450px;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.25);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  border-radius: 4px;
+
+  .Key {
+    width: 75%;
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 1rem;
+  }
+   {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+}
