@@ -1,5 +1,5 @@
-const nacl = require("tweetnacl");
-const util = require("tweetnacl-util");
+const nacl = require("tweetnacl")
+const util = require("tweetnacl-util")
 
 // Aquí creamos algunas formas para llamar nuestras a funciones
 const newNonce = () => nacl.randomBytes(nacl.box.nonceLength)
