@@ -1,0 +1,155 @@
+/*Color de fondo*/
+body {
+  background: #1f2029;
+}
+/*Color del título*/
+h1 {
+  color: #FFFFFF;
+}
+
+/*NO SE QUE HICE PERO SI LO QUITAS SE MUEVE LA POSICION DE LAS COSAS :) */
+textarea {
+  padding-right: 4em;
+  margin-right: 2em;
+}
+input,button {
+  padding-right: 0.5em;
+}
+
+/*Palabras*/
+#texto1 { /*KEY*/
+  background-color: #1f2029; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  font-size: 20px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: -16.5px;
+  left: 0px;
+}
+#texto2 { /*NONCE*/
+  background-color: #1f2029; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  font-size: 20px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 34px;
+  left: 450px;
+}
+#texto3 { /*MY PRIVATE KEY*/
+  background-color:#1f2029; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  font-size: 20px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 85px;
+  left: 880px;
+}
+#texto4 { /*MESSAGE*/
+  background-color: #1f2029; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  font-size: 20px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 250px;
+  left: 41px;
+}
+#texto5 { /*BOX*/
+  background-color: #1f2029; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  font-size: 20px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 523px;
+  left: 613px;
+}
+
+/*cuadros de texto*/
+#txtarea1 { /*KEY*/
+  background-color: #1f2029; /*Color del fondo*/
+  border-color: #FFFFFF; /*Color del borde*/
+  color: #FFFFFF; /*Color de las letras de los cuadros de texto*/
+  width: 120px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: -21px;
+  left: 0px;
+}
+#txtarea2 { /*NONCE*/
+  background-color: #1f2029; /*Color del fondo*/
+  border-color: #FFFFFF; /*Color del borde*/
+  color: #FFFFFF; /*Color de las letras de los cuadros de texto*/
+  width: 120px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 30px;
+  left: 450px;
+}
+#txtarea3 { /*MY PRIVATE KEY*/
+  background-color: #1f2029; /*Color del fondo*/
+  border-color: #FFFFFF; /*Color del borde*/
+  color: #FFFFFF; /*Color de las letras de los cuadros de texto*/
+  width: 120px; /*tamaño del cuadro a lo largo*/
+  position:relative; /*Posicion de las cosas*/
+  bottom: 81px;
+  left: 880px;
+}
+#txtarea4 { /*MESSAGE*/
+  background-color: #1f2029; /*Color del fondo*/
+  border-color: #FFFFFF; /*Color del borde*/
+  color: #FFFFFF; /*Color de las letras de los cuadros de texto*/
+  padding: 20px; /*tamaño del cuadro a lo alto*/
+  width: 400px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 30px;
+  left: -40px;
+}
+#txtarea5 { /*BOX*/
+  background-color: #1f2029; /*Color del fondo*/
+  border-color: #FFFFFF; /*Color del borde*/
+  color: #FFFFFF; /*Color de las letras de los cuadros de texto*/
+  padding: 20px; /*tamaño del cuadro a lo alto*/
+  width: 400px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 303px;
+  left: 570px;
+}
+
+/*Botones*/
+#btn1{ /*Their Public Key*/
+  padding: 5px; /*tamaño del cuadro a lo alto*/
+  background-color: #47DBF6; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  width: 100px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: -11px;
+  left: -19px;
+}
+#btn2 { /*My Secret Key*/
+  padding: 5px; /*tamaño del cuadro a lo alto*/
+  background-color: #47DBF6 ; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  width: 100px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 40px;
+  left: 430px;
+}
+#btn3 { /*Nonce*/
+  padding: 5px; /*tamaño del cuadro a lo alto*/
+  background-color: #47DBF6; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  width: 100px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 90px;
+  left: 860px;
+}
+#btn4 { /*ENCRIPTAR*/
+  padding: 5px; /*tamaño del cuadro a lo alto*/
+  background-color: #47DBF6; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  width: 100px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 82px;
+  left: 500px;
+}
+#btn5 { /*DESENCRIPTAR*/
+  padding: 5px; /*tamaño del cuadro a lo alto*/
+  background-color: #47DBF6; /*Color del fondo*/
+  color: #FFFFFF; /*Color de las letras*/
+  width: 100px; /*tamaño del cuadro a lo largo*/
+  position: relative; /*Posicion de las cosas*/
+  bottom: 355px;
+  left: 1073px;
+}
