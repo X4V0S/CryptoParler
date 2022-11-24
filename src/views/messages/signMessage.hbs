@@ -1,0 +1,30 @@
+<!-- Keys + Nonce -->
+<div class="col-md-12 mx-auto">
+    <div class="card">
+        <div class="card-header">
+            <h3>Sign a message</h3>
+            <h6>Nota: se deben enviar la firma y el mensaje
+                para que el usuario receptor pueda verificarlo
+            </h6>
+        </div>
+        <div class="card-body">
+            <form action="/signMessage" method="POST">
+                <div class="form-group">
+                    <label>My 64 digit key for sign</label>
+                    <div class="input-group">
+                        <input type="text" name="myKeyForSign" class="form-control"
+                        value="{{myKeyForSign}}">
+                    </div>
+                    <div>
+                        <label>Message</label>
+                        <textarea name="message" class="form-control"
+                        value="{{message}}"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Sign</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

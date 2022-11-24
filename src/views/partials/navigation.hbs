@@ -1,0 +1,64 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light p-2 bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="/">CryptoParler</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about">About</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                {{#if user}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Symmetric
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="symmetric">Encrypt</a>
+                        <a class="dropdown-item" href="symmetricDecrypt">Decrypt</a>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Asymmetric
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="asymmetric">Encrypt</a>
+                        <a class="dropdown-item" href="asymmetricDecrypt">Decrypt</a>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sign
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="signMessage">Sign a message</a>
+                        <a class="dropdown-item" href="signVerify">Verify a message</a>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <a class="nav-link" href="logout">Logout</a>
+                    </ul>
+                </li>
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link" href="signin">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup">Register</a>
+                </li>
+                {{/if}}
+            </ul>
+        </div>
+    </div>
+</nav>

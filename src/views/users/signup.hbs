@@ -1,0 +1,37 @@
+{{!-- REGISTRO --}}
+<center>
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Crear una cuenta</h3>
+                </div>
+                <div class="card-body">
+                    <form action="/signup" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="nombre" placeholder="Nombre de usuario"
+                            value="{{nombre}}" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Correo electronico"
+                            value="{{email}}">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Contraseña"
+                            value="{{password}}" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="confirmPassword" placeholder="Confirmar contraseña"
+                            value="{{confirmPassword}}" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-dark btn-block">
+                                Crear una cuenta
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</center>

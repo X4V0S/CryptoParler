@@ -1,0 +1,32 @@
+<!-- Keys + Nonce -->
+<div class="col-md-12 mx-auto">
+    <div class="card">
+        <div class="card-header">
+            <h3>Verificar mensaje</h3>
+        </div>
+        <div class="card-body">
+            <form action="/signVerify" method="POST">
+                <div class="form-group">
+                    <label for="MySecretKey">Nombre del usuario emisor</label>
+                    <div class="input-group">
+                        <input type="text" name="userEmit" class="form-control"
+                        value="{{userEmit}}">
+                    </div>
+                    <div class="form-group">
+                        <label>Firma</label>
+                        <textarea name="signedEmit" class="form-control"
+                        value="{{signedEmit}}"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea name="messageEmit" class="form-control"
+                        value="{{messageEmit}}"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Verify</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<!-- Keys + Nonce -->
+<div class="row">
+    <div class="col-md-12 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h3>Symmetric Encrypt</h3>
+            </div>
+            <div class="card-body">
+                <form action="/symmetric" method="POST">
+                    <div class="form-group">
+                        <label>Secret Key</label>
+                        <input type="text" name="secretKey" class="form-control"
+                        value="{{secretKey}}">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="msg" class="form-control"
+                        value="{{msg}}"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block">Encrypt</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
